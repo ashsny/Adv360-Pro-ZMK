@@ -222,3 +222,10 @@
     bindings = <&mkp MB1 &mkp MB1>;
     display-name = "Double Click";
   };
+
+  macro_asbp_yomi_card: macro_asbp_yomi_card{
+    compatible = "zmk,behavior-macro";
+    label = "macro_asbp_yomi_card";
+    #binding-cells = <0>;
+    bindings = <&kp LA(T)>, <&kp ESC>, <&kp ESC>, <&kp LC(LS(U))>;
+  };
