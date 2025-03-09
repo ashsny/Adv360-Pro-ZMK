@@ -232,7 +232,7 @@ macro_asbp_yomi_card: macro_asbp_yomi_card{
 
 macro_asbp_yomi_card_2: macro_asbp_yomi_card_2{
   compatible = "zmk,behavior-macro";
-  label = "macro_asbp_yomi_card";
+  label = "macro_asbp_yomi_card_2";
   #binding-cells = <0>;
   bindings = <&kp LC(LS(H))>, <&kp ESC>, <&kp LC(LS(U))>, <&macro_wait_time 200>, <&kp ESC &kp ESC>;
 };
