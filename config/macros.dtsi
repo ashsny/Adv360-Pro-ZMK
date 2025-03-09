@@ -234,5 +234,5 @@ macro_asbp_yomi_card_2: macro_asbp_yomi_card_2{
   compatible = "zmk,behavior-macro";
   label = "macro_asbp_yomi_card";
   #binding-cells = <0>;
-  bindings = <&kp LC(LS(H))>, <&kp ESC>, <&kp LC(LS(U))>, <&kp ESC>, <&kp ESC>;
+  bindings = <&kp LC(LS(H))>, <&kp ESC>, <&kp LC(LS(U))>, <&macro_wait_time 200>, <&kp ESC ESC>;
 };
